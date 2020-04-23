@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import os
 import sys
 
@@ -7,6 +9,6 @@ if len(sys.argv) != 2:
 day = sys.argv[1]
 
 os.system('git add .')
-os.system('git commit -m "Added solution for Day {0}"'.format(day))
+#os.system('git commit -m "Added solution for Day {0}"'.format(day))
 
 print('Committed solution for Day {0}'.format(day))
